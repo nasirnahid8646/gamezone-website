@@ -238,6 +238,12 @@ nav li a{
     border-radius: 50px;
     background: #FFF;
 }
+#button3{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .flex{
     display: flex;
     gap: 16px;
