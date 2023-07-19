@@ -214,3 +214,65 @@ nav li a{
     bottom: 300px;
     right: 200px;
 }
+
+
+
+.games-items{
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.flex-container {
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+
+
+
+
+
+.footer{
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-title{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.footer-icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    padding-left: 800px;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-title-2{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}   
