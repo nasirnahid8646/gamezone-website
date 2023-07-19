@@ -320,8 +320,27 @@ nav li a{
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
-}   
+}
 
+/* Mobile View Styles */
 @media screen and (max-width: 576px){
-    
+    .nav-title{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    .banner{
+        padding-right: 100px;
+        padding-left: 200px;
+        flex-direction: column;
+    }
+    .play-instantly{
+        padding-left: 700px;
+        padding-right: 1px;
+        justify-content: center;
+    }
+    .card-section{
+        padding-right: 50px;
+    }
 }
