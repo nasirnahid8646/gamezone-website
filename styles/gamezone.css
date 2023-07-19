@@ -226,12 +226,18 @@ nav li a{
     height: 427px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.flex-container {
+.games-container {
     display: flex;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     padding: 150px;
+}
+.games-container-button{
+    width: 244px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
 }
 .flex{
     display: flex;
@@ -247,7 +253,6 @@ nav li a{
     font-size: 20px;
     font-weight: 600;
 }
-
 
 /* Footer Styles */
 .footer{
