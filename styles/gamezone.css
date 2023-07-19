@@ -6,7 +6,7 @@
     font-family: 'Work Sans', sans-serif;
   }
 
-  /* header style */
+  /* Header Styles */
 header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -62,6 +62,8 @@ nav li a{
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Play Like The Goat Styles */
 .banner{
     display: flex;
     justify-content: space-between;
@@ -122,6 +124,8 @@ nav li a{
 #secondary{
     background: #4EC5F7;
 }
+
+/* Online Games Funny Videos */
 .online-games{
     margin: auto;
     text-align: center;
@@ -164,9 +168,7 @@ nav li a{
     margin-top: 16px;
 }
 
-
-
-
+/* Play Instantly Style*/
 .play-instantly{
     display: flex;
     justify-content: space-around;
@@ -215,8 +217,7 @@ nav li a{
     right: 200px;
 }
 
-
-
+/* Games Items Styles */
 .games-items{
     width: 1920px;
     height: 427px;
@@ -224,15 +225,28 @@ nav li a{
 }
 .flex-container {
     display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 150px;
 }
 .flex{
     display: flex;
+    gap: 16px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.icon-title{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
-
-
-
+/* Footer Styles */
 .footer{
     width: 1920px;
     height: 636px;
@@ -240,6 +254,7 @@ nav li a{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 .footer-title{
     display: inline-flex;
@@ -276,3 +291,7 @@ nav li a{
     font-size: 16px;
     font-weight: 500;
 }   
+
+@media screen and (max-width: 576px){
+    
+}
